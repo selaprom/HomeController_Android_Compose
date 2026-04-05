@@ -60,9 +60,9 @@ data class ItemGridModel(
 
 val itemGridList = listOf(
     ItemGridModel(R.drawable.ic_lamp, R.drawable.ic_wifi, "Smart Lighting", "100% led light", "10 Devices"),
-    ItemGridModel(R.drawable.ic_lamp, R.drawable.ic_wifi, "Smart TV", "Used 8 kwh", "2 Devices"),
-    ItemGridModel(R.drawable.ic_lamp, R.drawable.ic_wifi, "Refrigerator", "Used 5.2 kwh", "5 Devices"),
-    ItemGridModel(R.drawable.ic_lamp, R.drawable.ic_wifi, "Air Conditioner", "Used 9 kwh", "4 Devices"),
+    ItemGridModel(R.drawable.ic_tv, R.drawable.ic_wifi, "Smart TV", "Used 8 kwh", "2 Devices"),
+    ItemGridModel(R.drawable.ic_music, R.drawable.ic_wifi, "Refrigerator", "Used 5.2 kwh", "5 Devices"),
+    ItemGridModel(R.drawable.ic_notification, R.drawable.ic_wifi, "Air Conditioner", "Used 9 kwh", "4 Devices"),
     ItemGridModel(R.drawable.ic_lamp, R.drawable.ic_wifi, "Heater", "OFF", "Bathroom"),
     ItemGridModel(R.drawable.ic_lamp, R.drawable.ic_wifi, "Lamp", "ON", "Desk"),
     ItemGridModel(R.drawable.ic_lamp, R.drawable.ic_wifi, "Speaker", "Playing", "Hall"),
