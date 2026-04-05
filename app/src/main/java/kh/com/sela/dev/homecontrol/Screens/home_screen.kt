@@ -59,16 +59,16 @@ data class ItemGridModel(
 )
 
 val itemGridList = listOf(
-    ItemGridModel(R.drawable.ic_lamp, R.drawable.ic_wifi, "Smart Lighting", "100% led light", "10 Devices"),
+    ItemGridModel(R.drawable.ic_lamp, R.drawable.ic_bluetooh, "Smart Lighting", "100% led light", "10 Devices"),
     ItemGridModel(R.drawable.ic_tv, R.drawable.ic_wifi, "Smart TV", "Used 8 kwh", "2 Devices"),
-    ItemGridModel(R.drawable.ic_music, R.drawable.ic_wifi, "Refrigerator", "Used 5.2 kwh", "5 Devices"),
-    ItemGridModel(R.drawable.ic_notification, R.drawable.ic_wifi, "Air Conditioner", "Used 9 kwh", "4 Devices"),
-    ItemGridModel(R.drawable.ic_lamp, R.drawable.ic_wifi, "Heater", "OFF", "Bathroom"),
-    ItemGridModel(R.drawable.ic_lamp, R.drawable.ic_wifi, "Lamp", "ON", "Desk"),
-    ItemGridModel(R.drawable.ic_lamp, R.drawable.ic_wifi, "Speaker", "Playing", "Hall"),
-    ItemGridModel(R.drawable.ic_lamp, R.drawable.ic_wifi, "Camera", "Active", "Garage"),
-    ItemGridModel(R.drawable.ic_lamp, R.drawable.ic_wifi, "Door Lock", "Locked", "Front Door"),
-    ItemGridModel(R.drawable.ic_lamp, R.drawable.ic_wifi, "Curtain", "Closed", "Bedroom")
+    ItemGridModel(R.drawable.ic_music, R.drawable.ic_bluetooh, "Refrigerator", "Used 5.2 kwh", "5 Devices"),
+    ItemGridModel(R.drawable.ic_notification, R.drawable.ic_bluetooh, "Air Conditioner", "Used 9 kwh", "4 Devices"),
+    ItemGridModel(R.drawable.ic_lamp, R.drawable.ic_bluetooh, "Heater", "OFF", "Bathroom"),
+    ItemGridModel(R.drawable.ic_lamp, R.drawable.ic_bluetooh, "Lamp", "ON", "Desk"),
+    ItemGridModel(R.drawable.ic_lamp, R.drawable.ic_bluetooh, "Speaker", "Playing", "Hall"),
+    ItemGridModel(R.drawable.ic_lamp, R.drawable.ic_bluetooh, "Camera", "Active", "Garage"),
+    ItemGridModel(R.drawable.ic_lamp, R.drawable.ic_bluetooh, "Door Lock", "Locked", "Front Door"),
+    ItemGridModel(R.drawable.ic_lamp, R.drawable.ic_bluetooh, "Curtain", "Closed", "Bedroom")
 )
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -104,8 +104,8 @@ var state= rememberScrollState()
 
         }
         Column() {
-            Text("Control your", fontSize = 20.sp, fontWeight = FontWeight.Bold)
-            Text("home Smartly", fontSize = 20.sp, fontWeight = FontWeight.Bold)
+            Text("Control your", fontSize = 25.sp, fontWeight = FontWeight.Bold)
+            Text("home Smartly", fontSize = 25.sp, fontWeight = FontWeight.Bold)
         }
         //TemperatureCard
         TemperatureStatus()

@@ -65,7 +65,7 @@ fun ItemGrid(
                         painter = painterResource(iconleft,),contentDescription = null, tint = Color.White)
 
                 }
-                Icon(painter = painterResource(iconright),contentDescription = null)
+                Icon(painter = painterResource(iconright),contentDescription = null, tint = Color.Gray)
             }
             Spacer(modifier = Modifier.height(10.dp))
             Text(label, fontWeight = FontWeight.Bold, fontSize = 16.sp)
